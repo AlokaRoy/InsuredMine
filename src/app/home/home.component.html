@@ -1,0 +1,9 @@
+<div *ngIf="image === null || image === undefined" class="loader"></div>
+
+  <div *ngIf="image !== null && image !== undefined" class="slideshow-container">
+    <img src="{{image.imgSrc}}">
+    <div class="centered">
+      <h5>{{image.imgDescription}}</h5>
+      <h6>{{image.imgName}}</h6>
+  </div>
+  </div>

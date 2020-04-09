@@ -1,0 +1,17 @@
+[
+    {
+        "imgName" : "— Diane Arbus",
+        "imgDescription" : "Taking pictures is like tiptoeing into the kitchen late at night and stealing Oreo cookies.",
+        "imgSrc" : "../../assets/images/home_img2.jpg"
+    },
+    {
+        "imgName" : "— Scott Lorenzo",
+        "imgDescription" : "The picture that you took with your camera is the imagination you want to create with reality.",
+        "imgSrc" : "../../assets/images/home_img1.jpg"
+    },
+    {
+        "imgName" : "— Alfred Stieglitz",
+        "imgDescription" : "In photography there is a reality so subtle that it becomes more real than reality.",
+        "imgSrc" : "../../assets/images/home_img3.jpg"
+    }
+]

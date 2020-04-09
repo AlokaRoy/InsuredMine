@@ -1,0 +1,89 @@
+/* Style The Dropdown Button */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.align-header {
+  margin: 10px;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  right: 0;
+  background-color: rgba(247, 209, 43, 0.986);
+  cursor: pointer;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/*End of dropdown styling */
+
+/* Header menu styling */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10;
+  overflow: hidden;
+  background-color: gray;
+  position: fixed;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgba(247, 209, 43, 0.986);
+}
+
+/* End of Header menu styling */
+
+
+input {
+  margin-top: 14px;
+}
+
+label {
+  margin-top: 14px;
+}
+
